@@ -1,14 +1,73 @@
-*{
-    padding:0px;
-    margin:0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  }
+  
 body{
-	width:100%;
-	position:absolute;
-	top:50%;
-	text-align: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	background-image: url("pexels.jpg");
+	background-size: auto;	
+}
+
+#main-content{
+	margin: 30vh 5vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
     font-family: Helvetica;
     font-size: auto;
-    color:red;
-    background-color: blue;
+}
+
+#title{
+	font-family: 'Lato', sans-serif;
+	font-size:3rem;
+}
+
+
+p:hover{
+	color:white;
+	cursor:pointer;
+}
+
+ul{
+	display:flex;
+	justify-content:center;
+	list-style:none;
+	
+}
+
+li{
+	color:white;
+}
+
+
+a:visited {
+  color: white; /* Change color for visited links */
+}
+
+
+a{
+	color:white;
+}
+
+.footer{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+img{
+	margin-top: 10px;
+	height:60px;
 }
