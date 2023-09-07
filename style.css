@@ -1,73 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-
-
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-  }
-  
+*{
+    margin:0%;
+    padding:0;
+}
 body{
-	display:flex;
-	flex-direction: column;
-	justify-content: space-between;	
-	background-image: url("pexels.jpg");
-	background-size: auto;	
+    background-color: #7D3C98;
+}
+header{
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:15vh;
 }
 
-#main-content{
-	margin: 30vh 5vh;
-	display:flex;
-	flex-direction:column;
-	justify-content: flex-start;
-    font-family: Helvetica;
-    font-size: auto;
+main{
+    width: 100vh;
+    height:75vh;
+   
 }
 
-#title{
-	font-family: 'Lato', sans-serif;
-	font-size:3rem;
+nav{
+    margin-right:5%;
+    height:10vh;
+    padding-top: 2%;
+    display:flex;
+    justify-content: space-evenly;
 }
 
-
-p:hover{
-	color:white;
-	cursor:pointer;
+#logo{
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-left: 5%;
+    height:60%;
 }
 
-ul{
-	display:flex;
-	justify-content:center;
-	list-style:none;
-	
+#profile{
+    position: absolute;
+    right: 0;
+    top:17%;
+    width: 400px; 
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgba(59, 43, 71, 0.8)) grayscale(100%);
+
 }
 
-li{
-	color:white;
+p{
+    position:relative;
+    left: 10%;
+    top: 30%;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    color:white;
+
 }
-
-
-a:visited {
-  color: white; /* Change color for visited links */
+/*
+#profile{
+    position: absolute;
+    right: 0;
+    top:40%;
+    width: 400px; 
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgba(59, 43, 71, 0.8))
 }
-
+*/
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:5vh;
+    background-color: black;
+}
 
 a{
-	color:white;
+    margin-right: 25px;
+    color:antiquewhite;
+    font-family: Montserrat;
+    font-weight: light;
+    text-decoration: none;
 }
 
-.footer{
-	display:flex;
-	justify-content:space-evenly;
+.circle{
+    z-index: -1;
+    position:absolute;
+    bottom:0px;
+    right:0;
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+    background-color: yellow;
 }
 
-.logo{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
-img{
-	margin-top: 10px;
-	height:60px;
-}
