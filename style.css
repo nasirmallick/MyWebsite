@@ -37,8 +37,8 @@ nav{
 #profile{
     position: absolute;
     right: 0;
-    top:17%;
-    width: 400px; 
+    bottom: 5vh;
+    width: 60vh; 
     height: auto;
     filter: drop-shadow(10px 10px 10px rgba(59, 43, 71, 0.8)) grayscale(100%);
 
@@ -85,9 +85,8 @@ a{
     position:absolute;
     bottom:0px;
     right:0;
-    width:500px;
-    height:500px;
+    width:75vh;
+    height:75vh;
     border-radius: 50%;
     background-color: yellow;
 }
-
